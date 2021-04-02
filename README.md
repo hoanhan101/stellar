@@ -5,4 +5,4 @@ A Makefile, Dockerfile and docker-compose file are provided in the project repos
 make up
 ```
 
-Once the docker-compose version is ready, the service will be available at <http://127.0.0.1:80>.
+Once the docker-compose version is ready, the service will be available at <http://127.0.0.1:80>. Additionally, the API documentation is available at <http://127.0.0.1:80/docs>.
