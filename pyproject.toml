@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "stellar"
+version = "0.1.0"
+description = ""
+authors = ["Hoanh An <hoanhan101@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+redis= "^3.5.3"
+fastapi = "^0.63.0"
+containerlog= "^0.3.1"
+uvicorn = "^0.13.3"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+isort = "^5.7.0"
+mypy = "^0.800"
+pytest = "^6.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

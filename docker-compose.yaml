@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  redis:
+    container_name: redis
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+  stellar-server:
+    container_name: stellar-server
+    image: stellar-server:latest
+    ports:
+      - '80:80'
