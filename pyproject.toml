@@ -6,7 +6,6 @@ authors = ["Hoanh An <hoanhan101@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-requests = "^2.25.1"
 redis= "^3.5.3"
 fastapi = "^0.63.0"
 containerlog= "^0.3.1"
